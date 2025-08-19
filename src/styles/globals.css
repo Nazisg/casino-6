@@ -35,14 +35,14 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #DDA435;
+  background: #e60023;
   border-radius: 10px;
-  border: 1px solid #DDA435;
+  border: 1px solid #e60023;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffad0a;
+  background: #ff3251f6;
   transition-duration: 0.3s;
 }
 
