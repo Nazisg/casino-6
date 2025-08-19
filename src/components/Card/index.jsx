@@ -9,14 +9,25 @@ export default function Card({ rank, name, icon, rating, minDeposit, methods, bo
                 <div className="xl:text-[30px] text-[16px] col-span-1 flex xl:items-center justify-center text-4xl font-bold text-[#7F1111] transition-colors duration-300 group-hover:text-[#e60023]">
                     #{rank}
                 </div>
-                <Link href={link} target="_blank" rel="noopener noreferrer">
-                    <img
-                        src={icon}
-                        alt={name || "casino-logo"}
-                        className="w-full h-full object-contain max-h-[50px]"
-                    />
-                </Link>
+                <div className="flex flex-col gap-3">
+                    <Link href={link} target="_blank" rel="noopener noreferrer">
+                        <img
+                            src={icon}
+                            alt={name || "casino-logo"}
+                            className="w-full h-full object-contain max-h-[50px]"
+                        />
+                    </Link>
+                    <div className="flex flex-col lg:flex-row gap-1 items-center justify-center">
+                        <div className="text-[#fff] px-1 xl:py-1 xl:px-2 rounded-[12px] lg:border lg:border-[#fff] text-[10px]"
+                        > UK licensed</div>
+                        <div className="text-[#fff] px-1 xl:py-1 xl:px-2 rounded-[12px] lg:border lg:border-[#fff] text-[10px]"
+                        >T&C only 18+</div>
+                    </div>
+                </div>
+
             </div>
+
+
 
             {/* Expert Rating */}
             <div className="col-span-1 flex flex-col gap-2 items-center justify-center">
@@ -61,7 +72,7 @@ export default function Card({ rank, name, icon, rating, minDeposit, methods, bo
             {/* Button */}
             <div className="col-span-2 xl:col-span-1 flex items-center w-full ">
                 <Link href={link} target="_blank" rel="noopener noreferrer" className="w-full">
-                    <button className="font-bold py-2 px-10 w-full rounded-[8px] bg-[#DDA435] cursor-pointer bg-[#e60023] text-white border border-[#e60023] shadow-[0_0_5px_#e60023,0_0_10px_#e60023,0_0_20px_#e60023]">
+                    <button className="font-bold py-2 px-10 w-full rounded-[8px] cursor-pointer bg-[#e60023] text-white border border-[#e60023] shadow-[0_0_5px_#e60023,0_0_10px_#e60023,0_0_20px_#e60023]">
                         Visit
                     </button>
                 </Link>
