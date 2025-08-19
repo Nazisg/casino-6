@@ -1,8 +1,8 @@
 export default function TermsAndConditions() {
   return (
-    <section id="terms" className="px-4 py-10 lg:py-20">
+    <section id="terms" className="px-4 py-7 lg:py-12">
       <div className="max-w-7xl mx-auto flex flex-col">
-        <p className="font-bold text-[24px] text-center lg:text-[48px]">Terms & Conditions</p>
+        <p className="font-bold text-[24px] text-center lg:text-[48px] glow-text">Terms & Conditions</p>
         <h2 className="opacity-60 mb-3 text-center mb-8">
           The rules and guidelines that govern your use of Casino
         </h2>

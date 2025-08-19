@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function Card({ rank, name, icon, rating, minDeposit, methods, bonus, link }) {
     return (
-        <div className="relative transform hover:scale-[1.02] group bg-slate-900 border border-slate-800 overflow-hidden transition-all duration-300 ease-in-out hover:bg-slate-800/50 hover:border-amber-400/50 hover:shadow-2xl hover:shadow-amber-500/10 rounded-[12px] xl:p-8 p-4 grid xl:grid-cols-5 grid-cols-2 gap-5">
+        <div className="relative transform hover:scale-[1.02] group bg-[#A41B1A]/30 border border-[#A41B1A]/60 overflow-hidden transition-all duration-300 ease-in-out hover:bg-[#A41B1A]/30 hover:border-[#A41B1A] hover:shadow-2xl hover:shadow-amber-500/10 rounded-[12px] xl:p-8 p-4 grid xl:grid-cols-5 grid-cols-2 gap-5">
 
             {/* Card Icon + Rank */}
             <div className="col-span-1 flex gap-4 items-center">
-                <div className="xl:text-[30px] text-[16px] col-span-1 flex xl:items-center justify-center text-4xl font-bold text-slate-600 transition-colors duration-300 group-hover:text-amber-400">
+                <div className="xl:text-[30px] text-[16px] col-span-1 flex xl:items-center justify-center text-4xl font-bold text-[#7F1111] transition-colors duration-300 group-hover:text-[#e60023]">
                     #{rank}
                 </div>
                 <Link href={link} target="_blank" rel="noopener noreferrer">
@@ -44,7 +44,7 @@ export default function Card({ rank, name, icon, rating, minDeposit, methods, bo
                     {methods.map((method, i) => (
                         <div
                             key={i}
-                            className="text-[#DDA435] px-1 xl:py-1 xl:px-2 rounded-[12px] border border-[#DDA435] text-[10px] xl:text-[12px]"
+                            className="text-[#e60023] px-1 xl:py-1 xl:px-2 rounded-[12px] border border-[#e60023] text-[10px] xl:text-[12px]"
                         >
                             {method}
                         </div>
@@ -61,7 +61,7 @@ export default function Card({ rank, name, icon, rating, minDeposit, methods, bo
             {/* Button */}
             <div className="col-span-2 xl:col-span-1 flex items-center w-full ">
                 <Link href={link} target="_blank" rel="noopener noreferrer" className="w-full">
-                    <button className="font-bold py-2 px-10 w-full text-black rounded-[8px] bg-[#DDA435] cursor-pointer">
+                    <button className="font-bold py-2 px-10 w-full rounded-[8px] bg-[#DDA435] cursor-pointer bg-[#e60023] text-white border border-[#e60023] shadow-[0_0_5px_#e60023,0_0_10px_#e60023,0_0_20px_#e60023]">
                         Visit
                     </button>
                 </Link>

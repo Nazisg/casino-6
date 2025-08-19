@@ -11,28 +11,28 @@ export default function Footer() {
             {/* Brand Info */}
             <div className="max-w-lg">
               <div className="font-bold items-center flex gap-2 mb-2"><img src="/icons/casino-logo.png" alt="logo" className="w-8" />
-                <h2 className="text-[20px] text-[#DDA435]">Casino</h2></div>
+                <h2 className="text-[20px] text-[#e60023] glow-text">Casino</h2></div>
               <p className="text-[14px] text-gray-400 text-sm">
                 Your premier destination for online casino entertainment. Play responsibly.</p>
-              <p className="text-gray-500 text-xs mt-2">Visit us at: <span className="gold">casino</span></p>
+              <p className="text-gray-500 text-xs mt-2">Visit us at: <span className="text-[#e60023]">casino</span></p>
             </div>
           </div>
           <div className="col-span-1">
-            <h2 className="gold font-semibold mb-4">Quick Links</h2>
+            <h2 className="text-[#e60023] font-semibold mb-4">Quick Links</h2>
             <div className="space-y-2">
               <a href="#"
                 onClick={(e) => {
                   e.preventDefault();
                   window.scrollTo({ top: 0, behavior: "smooth" });
-                }} className="block text-gray-400 hover:text-[#DDA435] transition-colors text-sm">Home</a>
-              <a href="#about-us" className="block text-gray-400 hover:text-[#DDA435] transition-colors text-sm">About Us</a>
-              <a href="#top-casinos" className="block text-gray-400 hover:text-[#DDA435] transition-colors text-sm">Top Casinos</a>
-              <a href="#terms" className="block text-gray-400 hover:text-[#DDA435] transition-colors text-sm">Terms & Conditions</a>
+                }} className="block text-gray-400 hover:text-[#60023] transition-colors text-sm">Home</a>
+              <a href="#about-us" className="block text-gray-400 hover:text-[#e60023] transition-colors text-sm">About Us</a>
+              <a href="#top-casinos" className="block text-gray-400 hover:text-[#e60023] transition-colors text-sm">Top Casinos</a>
+              <a href="#terms" className="block text-gray-400 hover:text-[#e60023] transition-colors text-sm">Terms & Conditions</a>
             </div>
           </div>
 
           <div className="col-span-1">
-            <h2 className="gold font-semibold mb-4">Support</h2>
+            <h2 className="text-[#e60023] font-semibold mb-4">Support</h2>
             <div className="space-y-2 text-gray-400 text-sm">
               <p>24/7 Customer Support</p>
               <p>Email: support@top10royalcasino.co.uk</p>
@@ -41,20 +41,20 @@ export default function Footer() {
           </div>
 
           <div className="col-span-1">
-            <h2 className="gold font-semibold mb-4">Responsible Gaming</h2>
+            <h2 className="text-[#e60023] font-semibold mb-4">Responsible Gaming</h2>
             <div className="space-y-2">
-              <a href="https://www.gambleaware.org/" target="_blank" className="block text-gray-400 hover:text-[#DDA435] transition-colors text-sm">BeGambleAware.org</a>
-              <a href="https://www.gamcare.org.uk/" target="_blank" className="block text-gray-400 hover:text-[#DDA435] transition-colors text-sm">GamCare.org.uk</a>
-              <a href="https://gamblingtherapy.org/" target="_blank" className="block text-gray-400 hover:text-[#DDA435] transition-colors text-sm">GamblingTherapy.org</a>
-              <a href="https://www.gamstop.co.uk/" target="_blank" className="block text-gray-400 hover:text-[#DDA435] transition-colors text-sm">GamStop.co.uk</a>
+              <a href="https://www.gambleaware.org/" target="_blank" className="block text-gray-400 hover:text-[#e60023] transition-colors text-sm">BeGambleAware.org</a>
+              <a href="https://www.gamcare.org.uk/" target="_blank" className="block text-gray-400 hover:text-[#e60023] transition-colors text-sm">GamCare.org.uk</a>
+              <a href="https://gamblingtherapy.org/" target="_blank" className="block text-gray-400 hover:text-[#e60023] transition-colors text-sm">GamblingTherapy.org</a>
+              <a href="https://www.gamstop.co.uk/" target="_blank" className="block text-gray-400 hover:text-[#e60023] transition-colors text-sm">GamStop.co.uk</a>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-[#DDA435]/20 mt-2"></div>
+        <div className="border-t border-[#e60023]/20 mt-2"></div>
 
         <div className="flex flex-col gap-4 justify-center items-center ">
-          <h2 className="gold font-semibold">Gambling Awareness & Support</h2>
+          <h2 className="text-[#e60023] font-semibold">Gambling Awareness & Support</h2>
           <div className="flex flex-wrap justify-center items-center gap-8">
             <a href="https://www.begambleaware.org" target="_blank" className="opacity-70 hover:opacity-100 transition-opacity h-[40px] w-[120px] flex items-center"> <img src="/icons/footer-logo-1.webp" className="object-contain" alt="footer-logo" /></a>
             <a href="https://www.begambleaware.org" target="_blank" className="opacity-70 hover:opacity-100 transition-opacity h-[40px] w-[120px] flex items-center" > <img src="/icons/footer-logo-2.webp" className="object-contain" alt="footer-logo" /></a>
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-[#DDA435]/20 mt-2"></div>
+        <div className="border-t border-[#e60023]/20 mt-2"></div>
 
         <div className="bg-red-900/20 border border-red-500/30 rounded-lg p-4 mb-6">
           <div className="text-center text-[14px]">
@@ -73,7 +73,7 @@ export default function Footer() {
               <p><strong className="text-white">18+ ONLY. </strong>Gambling can be addictive. Please play responsibly.</p>
               <p>This website contains information about gambling and betting services. We do not provide gambling services directly.</p>
               <p>All casino operators listed are independently owned and operated. Please check local laws before gambling online.</p>
-              <p><strong className="gold mt-3">If gambling is becoming a problem, seek help immediately.</strong></p>
+              <p><strong className="text-[#e60023] mt-3">If gambling is becoming a problem, seek help immediately.</strong></p>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function Footer() {
             <div className="text-3xl mb-2">
               🔞
             </div>
-            <h5 className="gold font-semibold mb-2 "> Age Verification</h5>
+            <h5 className="text-[#e60023] font-semibold mb-2 "> Age Verification</h5>
             <p className="text-gray-400 text-xs">You must be 18 or over to use gambling services. Age verification checks are mandatory.</p>
           </div>
 
@@ -91,7 +91,7 @@ export default function Footer() {
             <div className="text-3xl mb-2">
               🛡️
             </div>
-            <h5 className="gold font-semibold mb-2 ">Licensed Operators</h5>
+            <h5 className="text-[#e60023] font-semibold mb-2 ">Licensed Operators</h5>
             <p className="text-gray-400 text-xs">All featured casinos are licensed by reputable gambling authorities and regulated.</p>
           </div>
 
@@ -99,7 +99,7 @@ export default function Footer() {
             <div className="text-3xl mb-2">
               🚫
             </div>
-            <h5 className="gold font-semibold mb-2 ">Play Within Limits</h5>
+            <h5 className="text-[#e60023] font-semibold mb-2 ">Play Within Limits</h5>
             <p className="text-gray-400 text-xs">Set deposit limits, take breaks, and never gamble more than you can afford to lose.</p>
           </div>
         </div>
